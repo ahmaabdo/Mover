@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ahmaabdo.android.mover.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/root"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SuperUser" />
+
+        <CheckBox
+            android:id="@+id/busybox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="BusyBox" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/showsystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show System apps" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <ListView
+        android:id="@+id/apps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

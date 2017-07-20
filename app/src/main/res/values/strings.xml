@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mover</string>
+
+    <string name="warningMsg">"This app can damage your device! Many apps won\'t work when moved to another location and they might appear to be uninstalled then! The app does not offer a way to move these apps back if that happens!\nMake a system backup before using this app! Only continue if you really know what you\'re doing!"</string>
+    <string name="warning_checkbox">"I understand the risk and act on my own responsibility. Do not show this dialog again."</string>
+    <string name="waiting_for_root_access">Waiting for root access</string>
+    <string name="not_rooted_text">Your device seems not to be rooted! This app requires root access and does not work without.  Click [here] to uninstall.</string>
+    <string name="recheck_root_access">No root access granted - click here to recheck</string>
+    <string name="busybox_not_found">BusyBox not found Click here to download</string>
+    <string name="warning_use_risk">Use at your own risk! I won\'t take responsibility for damages on your device! Make a backup first!</string>
+    <string name="busy_box_link_playstore">https://play.google.com/store/apps/details?id=stericson.busybox</string>
+    <string name="warning_text">Warning</string>
+    <string name="error">Error</string>
+    <string name="doIt">Really?? Do it nowwwww!</string>
+    <string name="ask_for_backup">Did you make a backup?</string>
+    <string name="require_reboot_text">Please reboot your device before moving this app again</string>
+    <string name="app_not_found">App not found!</string>
+    <string name="cant_move_me">Can not move myself</string>
+    <string name="cant_move">Can not move\t</string>
+    <string name="encrypted_app">seems to be an encrypted app and therefore might not be convertible to a system app! Continue at your own risk!</string>
+    <string name="remove_installed_first">:\nRemove installed updates first.</string>
+
+
+</resources>
